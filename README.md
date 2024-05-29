@@ -1,6 +1,6 @@
-#Schedule Metadata API Test Framework
+# Schedule Metadata API Automation Test Framework
 
-##Essential Prerequisites:
+## Essential Prerequisites:
 
 - Mac OS
 
@@ -8,7 +8,7 @@
 
 - npm v10 (recommended latest)
 
-##Installation and execution:
+## Installation and execution:
 
 - Clone this repository to your local workspace
 
@@ -22,3 +22,5 @@
 
 - npx cucumber-js (This command will start the cucumber test execution)
 
+# Schedule Metadata manual tests
+- Manual tests are available in the filepath .../IBLAPIAutomation/manual_tests/manual-tests.feature
