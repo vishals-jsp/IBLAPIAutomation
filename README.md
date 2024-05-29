@@ -1,2 +1,24 @@
+#Schedule Metadata API Test Framework
 
-![image](https://github.com/vishals-jsp/IBLAPIAutomation/assets/171132843/021a5b81-3379-4b0f-b570-3e1e9d45945e)
+##Essential Prerequisites:
+
+- Mac OS
+
+- nodejs v18 or later (recommended latest)
+
+- npm v10 (recommended latest)
+
+##Installation and execution:
+
+- Clone this repository to your local workspace
+
+- Open terminal window
+	
+- Navigate to project root directory <IBLAPIAutomation>
+
+- Execute the commands below
+
+- npm install (This command will build node-modules and dependent libraries)
+
+- npx cucumber-js (This command will start the cucumber test execution)
+
