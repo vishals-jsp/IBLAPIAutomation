@@ -55,10 +55,12 @@ Then("the transmission_start date value is before the transmission_end date", fu
 });
 
 Then("date valule in response headers appears correctly", function () {
-  console.log(": Test data :"+this.response.headers);
- 
-
-
+  var currentdate=new Date().toUTCString();
+  if(this.response.headers.date){
+    assert(this.response.headers.date == currentdate,"API response header date doesn't match with current date and time");
+  }else{
+    assert(false,"API response does not return date");
+  }
 });
 
 Then("API response error object has the properties details and http_response_code", function () { 
