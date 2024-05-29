@@ -1,4 +1,5 @@
 # Schedule Metadata API Automation Test Framework
+This API automation test framework mainly uses javascript, pactum and cucumber.
 
 ## Essential Prerequisites:
 
