@@ -11,8 +11,10 @@ Given user makes get request to API "https://testapi.io/api/RMSTest/ibltest"
 Then schedule_start time and before schedule_end time is not null or empty
 And schedule_start time is before schedule_end time
 And time different between schedule end time and start time must equals to duration
+And schedule_end time of current episode matches with schedule_start time of next episode
+And no overlap of time between two episodes 
 
-Scenario: Simulation real time load to API
-Given API has a rate limit of 1000 requests per minute
-When user makes 1500 requests pet minute to API "https://testapi.io/api/RMSTest/ibltest" 
-Then ensure API does not crash abruptly but responds to the user
+Scenario: Schedule type validation
+Given user makes get request to API "https://testapi.io/api/RMSTest/ibltest" 
+Then value of type is not null or empty for any schedule data
+And value of type for every item must be "broadcast"
