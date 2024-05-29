@@ -22,5 +22,5 @@
 
 - npx cucumber-js (This command will start the cucumber test execution)
 
-# Schedule Metadata manual tests
-- Manual tests are available in the filepath .../IBLAPIAutomation/manual_tests/manual-tests.feature
+# Schedule Metadata Functioanal manual tests
+- Functional Manual tests are available in the filepath .../IBLAPIAutomation/manual_tests/manual-tests.feature
