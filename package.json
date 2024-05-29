@@ -1,0 +1,21 @@
+{
+  "name": "iblapiautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "pactum": "^3.6.9"
+  },
+  "dependencies": {
+  },
+  "bin" : {
+    "execute" : "npx cucumber-js"
+  } 
+}
