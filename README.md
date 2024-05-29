@@ -1,13 +1,14 @@
 # Schedule Metadata API Automation Test Framework
+
 This API automation test framework mainly uses javascript, pactum and cucumber.
 
 ## Essential Prerequisites:
 
 - Mac OS
 
-- nodejs v18 or later (recommended latest)
+- *nodejs v18* or later (recommended latest)
 
-- npm v10 (recommended latest)
+- *npm v10* (recommended latest)
 
 ## Installation and execution:
 
@@ -17,11 +18,14 @@ This API automation test framework mainly uses javascript, pactum and cucumber.
 	
 - Navigate to project root directory <IBLAPIAutomation>
 
-- Execute the commands below
+- Execute bellow command which will build node-modules and dependent libraries
 
-- npm install (This command will build node-modules and dependent libraries)
+  > npm install
+  
+- Execute bellow command which will build node-modules and dependent libraries
 
-- npx cucumber-js (This command will start the cucumber test execution)
+  > npx cucumber-js
+  
+# Schedule Metadata Functional manual tests
 
-# Schedule Metadata Functioanal manual tests
 - Functional Manual tests are available in the filepath .../IBLAPIAutomation/manual_tests/manual-tests.feature
